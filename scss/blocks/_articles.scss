@@ -1,0 +1,138 @@
+.articles {
+  background-color: #F2F2F2;
+  padding-top: 78px;
+  padding-bottom: 80px;
+}
+
+.articles__title {
+  margin: 0px;
+  margin-bottom: 40px;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2D314D;
+}
+
+.articles__list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.articles__item {
+  max-width: 255px;
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.articles__position {
+  margin-top: 25px;
+  margin-left: 24px;
+  margin-bottom: 8px ;
+  display: block;
+  font-family: 'Public Sans';
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: -0.15625px;
+  color: #9597A5;
+}
+
+.articles__info {
+  max-width: 207px;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.285714px;
+  color: #2D314D;
+}
+
+.articles__info:hover {
+  color: #30C88F;
+}
+
+.articles__desc {
+  margin: 0px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  font-family: 'Public Sans';
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.203125px;
+  color: #9597A5;
+}
+
+@media only screen and (max-width: 376px) {
+  .articles__list {
+    flex-direction: column;
+  }
+
+  .articles__title {
+    text-align: center;
+  }
+
+  .articles {
+    padding: 88px 0px;
+  }
+
+  .articles__title {
+    max-width: 327px;
+    width: 100%;
+    margin-bottom: 31px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.571429px;
+    color: #2D314D;
+  }
+
+  .articles__box {
+    text-align: start;
+    max-width: 272px;
+    width: 100%;
+    padding: 0px 31px 0px 31px;
+  }
+
+  .articles__info {
+    margin-left: 0px;
+  }
+
+  .articles__item {
+    max-width: 327px;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .articles__desc {
+    margin-left: 0px;
+    font-family: 'Public Sans';
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.203125px;
+    color: #9597A5;
+  }
+
+  .articles__img {
+    max-width: 327px;
+    width: 100%;
+  }
+
+  .articles__position {
+    margin-left: 0px;
+  }
+}

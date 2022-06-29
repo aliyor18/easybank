@@ -1,0 +1,131 @@
+.choose {
+  padding: 96px 0px;
+  background-color: #F4F5F7;
+}
+
+.choose__title {
+  margin: 0px;
+  margin-bottom: 16px;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2D314D;
+}
+
+.choose__desc {
+  max-width: 635px;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 72px;
+  font-family: 'Public Sans';
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+
+.choose__list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.choose__item {
+  max-width: 255px;
+  width: 100%;
+}
+
+.choose__position {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 26px;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.428571px;
+  color: #2D314D;
+}
+
+.choose__info {
+  font-family: 'Public Sans';
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: #9597A5;
+}
+
+
+@media only screen and (max-width: 376px) {
+  .choose__list {
+    flex-direction: column;
+  }
+
+  .choose {
+    text-align: center;
+    padding: 64px 0px;
+  }
+
+  .choose__title {
+    margin: 0px auto;
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 14px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.571429px;
+    color: #2D314D;
+  }
+
+  .choose__desc {
+    margin-bottom: 56px;
+    font-family: 'Public Sans';
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.234375px;
+    color: #9597A5;
+  }
+
+  .choose__item {
+    max-width: 327px;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .choose__position {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.357143px;
+    color: #2D314D;
+  }
+
+  .choose__info {
+    max-width: 327px;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Public Sans';
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.234375px;
+    color: #9597A5;
+  }
+}

@@ -1,0 +1,125 @@
+.hero {
+  padding: 170px 0px;
+  padding-top: 250px;
+  background-image: url(/img/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 560px) calc( 58% );
+  background-size: auto;
+  background-color: #F2F2F2;
+  position: relative;
+  z-index: 1;
+}
+
+.hero__inner {
+  max-width: 447px;
+  width: 100%;
+}
+
+.hero__title {
+  margin: 0px;
+  margin-bottom: 24px;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2D314D;
+}
+
+.hero__desc {
+  max-width: 389px;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 36px;
+  font-family: 'PublicSans';
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+
+.hero__link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 34px;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.hero__link:hover {
+  opacity: 0.4;
+}
+
+.hero__link:active {
+  opacity: 0.2;
+}
+
+.hero__img {
+  position: absolute;
+  z-index: 2;
+  top: 0%;
+  transform: translate(4.2%);
+  left: 50% ;
+}
+
+.hero__img-mobil {
+  max-width: 375px;
+  width: 100%;
+  height:402px ;
+  display: none;
+}
+
+@media only screen and (max-width: 376px) {
+  .hero {
+    text-align: center;
+    padding: 386px 0px 88px 0px;
+    background-image: url(/img/hero-bg-mobil.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+  }
+
+  .hero__img {
+    display: none;
+  }
+
+  .hero__img-mobil {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+
+  .hero__title {
+    margin-bottom: 16px;
+    max-width: 327px;
+    width: 100%;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: -0.714286px;
+    color: #2D314D;
+  }
+
+  .hero__desc {
+    margin-bottom: 32px;
+    max-width: 327px;
+    width: 100%;
+    font-family: 'Public Sans';
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.234375px;
+    color: #9597A5;
+  }
+}
